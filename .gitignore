@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+
+# Secrets
+.env
+.env.*
+
+# Local data: databases, test decks, slide images, results (never commit)
+data/
+
+# Frontend
+node_modules/
+dist/
+
+# Windows junk
+Thumbs.db

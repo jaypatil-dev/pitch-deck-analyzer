@@ -1,0 +1,96 @@
+{
+  "version": "0.1-draft",
+  "source": "TO BE CITED: Jay to confirm the origin of the '10-12 core slides' guidance before this is shown to anyone.",
+  "weights_note": "Weights are PROVISIONAL and are the author's own choice, not taken from a published source. Treat them as a modelling assumption.",
+  "scale": "1 = missing or very weak, 5 = strong and evidence-backed",
+  "criteria": [
+    {
+      "id": "cover",
+      "name": "Cover (one-line pitch)",
+      "weight": 5,
+      "description": "States what the company does in one clear line.",
+      "low": "No clear statement of what the company does.",
+      "high": "One line a stranger can repeat; name, logo and contact are present."
+    },
+    {
+      "id": "problem",
+      "name": "Problem",
+      "weight": 10,
+      "description": "Names who has the problem and why it hurts.",
+      "low": "Vague or generic problem, no affected customer named.",
+      "high": "Specific customer, specific pain, supported by evidence or a quote."
+    },
+    {
+      "id": "solution",
+      "name": "Solution",
+      "weight": 10,
+      "description": "Explains the product and how it solves the problem.",
+      "low": "Buzzwords only, unclear what the product does.",
+      "high": "Clear product description that maps directly to the stated problem."
+    },
+    {
+      "id": "why_now",
+      "name": "Why now",
+      "weight": 8,
+      "description": "Explains what has changed that makes this possible or urgent today.",
+      "low": "No timing argument.",
+      "high": "A concrete shift (technology, regulation, behaviour) with evidence."
+    },
+    {
+      "id": "market",
+      "name": "Market size",
+      "weight": 10,
+      "description": "Sizes the market with a believable method.",
+      "low": "Only a huge top-down number with no source.",
+      "high": "Sourced figures and a bottom-up estimate of reachable customers."
+    },
+    {
+      "id": "traction",
+      "name": "Traction",
+      "weight": 15,
+      "description": "Shows evidence that people want this (users, revenue, pilots, growth).",
+      "low": "No evidence of demand.",
+      "high": "Real numbers with time period and growth trend."
+    },
+    {
+      "id": "business_model",
+      "name": "Business model",
+      "weight": 10,
+      "description": "Explains how the company makes money.",
+      "low": "No pricing or revenue logic.",
+      "high": "Clear pricing, who pays, and unit economics or margins."
+    },
+    {
+      "id": "competition",
+      "name": "Competition",
+      "weight": 7,
+      "description": "Shows who else solves this and why this company wins.",
+      "low": "Claims there is no competition.",
+      "high": "Honest comparison with real alternatives and a clear edge."
+    },
+    {
+      "id": "team",
+      "name": "Team",
+      "weight": 10,
+      "description": "Shows why this team can execute.",
+      "low": "Names only, no relevant background.",
+      "high": "Relevant experience for each founder and key hires or gaps."
+    },
+    {
+      "id": "roadmap_gtm",
+      "name": "Roadmap and go-to-market",
+      "weight": 7,
+      "description": "Explains how customers will be reached and what gets built next.",
+      "low": "No plan beyond 'we will grow'.",
+      "high": "Specific channels, milestones and timeline."
+    },
+    {
+      "id": "ask",
+      "name": "Funding ask",
+      "weight": 8,
+      "description": "States how much is being raised and what it will achieve.",
+      "low": "No amount or no use of funds.",
+      "high": "Amount, use of funds, and the milestones it reaches."
+    }
+  ]
+}
