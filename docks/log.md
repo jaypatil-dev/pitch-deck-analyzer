@@ -400,3 +400,15 @@ Reliability and speed
   box and the dropdown clear each other; deck list refreshes after upload.
 - Deploy path: private GitHub repo -> Render free (Docker) with
   GEMINI_API_KEY and ADMIN_PASSWORD, health check /api/health.
+
+## 40. Repository decisions
+- Private repo: the seed deck contains a third-party screenshot (not ours to
+  publish) and a wrong drag could leak a key or test decks. Render supports
+  private repos. Plan: make it public later, after cleanup, README and
+  replacing the seed deck; add the supervisor as a collaborator to share the
+  code earlier.
+- .gitignore reviewed: added .env.*, data/ (whole folder), dist/, Thumbs.db.
+- GitHub drag-and-drop ignores .gitignore: use VS Code Source Control
+  (Initialize, Commit, Publish as Private) or upload a cleaned copy.
+- If a key is ever committed, rotate it (history keeps it).
+
